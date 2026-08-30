@@ -4,13 +4,14 @@
   "assembly_relative_path": "stable_unknown_mod.dll",
   "id": "stable_unknown_mod",
   "display_name": "Stable Unknown",
+  "description": "Prevents you from losing modded items/blocks if you load a world with missing mods.",
   "contributors": [
     {
       "name": "haaxor1689",
       "role": "author"
     }
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": [
     {
       "id": "allumeria",
