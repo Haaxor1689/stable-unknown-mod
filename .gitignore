@@ -1,0 +1,34 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio files
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Visual Studio Code
+.vscode/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+
+# Rider and ReSharper
+.idea/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Generated files
+GeneratedFiles/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,18 @@
+<Project Sdk="Ignitron.Mod.Sdk/0.8.5">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <AssemblyName>stable_unknown_mod</AssemblyName>
+        <RootNamespace>StableUnknown</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <!-- Keep template resources flat, then place them under the mod ID at build output. -->
+        <Content Include="Content\**\*.*"
+             CopyToOutputDirectory="PreserveNewest"
+             Link="ignitron\stable_unknown_mod\%(RecursiveDir)%(Filename)%(Extension)"/>
+    </ItemGroup>
+</Project>
