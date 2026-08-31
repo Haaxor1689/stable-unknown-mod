@@ -1,3 +1,5 @@
+> DEPRECATED! Migrated to https://codeberg.org/Haaxor1689/stable-unknown-mod
+
 # Stable Unknown
 
 A technical mod for Allumeria that prevents you from losing items/blocks if you load your worlds missing some mods that were previously used there. All unknown items and blocks will stay unique and recover once their mod is loaded again.
